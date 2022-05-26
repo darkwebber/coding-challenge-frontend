@@ -126,7 +126,7 @@ const FormControl = ({ id, data }) => {
   return (
     <Wrapper style={{ fontFamily: '"Montserrat",sans-serif' }}>
       <Header>
-        <h2>{name}'s Post</h2>
+        <p>{`${name}'s post`}</p>
       </Header>
       <Main>
         <label htmlFor="title" className="text-sm text-blue-400 font-bold">
