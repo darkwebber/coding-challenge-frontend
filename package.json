@@ -14,7 +14,6 @@
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-scrollbars-custom": "^4.0.27",
     "tw-elements": "^1.0.0-alpha12"
   },
   "devDependencies": {
