@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import UserCard from "../components/UserCard";
 import FormControl from "../components/FormContol";
 import axios from "axios";
@@ -48,23 +46,6 @@ export default function Home() {
   }, []);
   return (
     <Wrapper id="containe">
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-
       <UserManage>
         <SearchArea>
           <Search
